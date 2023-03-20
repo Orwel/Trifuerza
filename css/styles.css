@@ -1,0 +1,67 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;200;300;400;600;700;800;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-top: 1%;
+}
+
+.section-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+.section-logo>img {
+    height: 20vh;
+}
+
+.section-nav>img {
+    height: 3.2vh;
+    margin-left: 30%;
+    
+   
+}
+
+.section-brainforce>h2 {
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 5rem;
+    letter-spacing: 2rem;
+    opacity: 0.7;
+}
+
+.section-trifuerza {
+    margin-top: 10%;
+}
+
+.section-trifuerza>h1 {
+    font-weight: 600;
+    font-size: 5rem;
+    letter-spacing: 2rem;
+    opacity: 0.6;
+}
+
+.section-main {
+    display: flex;
+    flex-direction: column;
+    background-image: url("/img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0%;
+    height: 75vh;
+    width: 100vw;
+}
+
+.section-brainforce, .section-trifuerza {
+    margin-left: 12%;
+}
