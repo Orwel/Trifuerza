@@ -41,7 +41,7 @@
 }
 
 .section-trifuerza {
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 .section-trifuerza>h1 {
@@ -57,11 +57,83 @@
     background-image: url("/img/fondo.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 0%;
+    background-position: center;
     height: 75vh;
     width: 100vw;
 }
 
 .section-brainforce, .section-trifuerza {
-    margin-left: 12%;
+    margin-left: 12.5%;
+}
+
+@media (max-width: 1000px) {
+    .section-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("/img/fondo.mobile.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: vertical;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .section-brainforce, .section-trifuerza {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5%;
+        padding: 5%;
+    }
+
+    .section-trifuerza>h1 {
+        font-weight: 600;
+        font-size: 3rem;
+        letter-spacing: 1rem;
+        opacity: 0.6;
+    }
+
+    .section-brainforce>h2 {
+        font-weight: 600;
+        font-size: 3rem;
+        letter-spacing: 1rem;
+        opacity: 0.6;
+    }
+
+    .section-logo>img {
+        height: 15vh;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .section-logo>img {
+        height: 10vh;
+    }
+
+    .section-brainforce, .section-trifuerza {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20%;
+        padding: 5%;
+    }
+
+    .section-trifuerza>h1 {
+        font-weight: 600;
+        font-size: 2rem;
+        letter-spacing: 1rem;
+        opacity: 0.6;
+    }
+
+    .section-brainforce>h2 {
+        font-weight: 600;
+        font-size: 2rem;
+        letter-spacing: 1rem;
+        opacity: 0.6;
+    }
+
+
 }
